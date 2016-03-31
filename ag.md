@@ -29,3 +29,10 @@ $ ag 'table' --js --html
 * `--depth` set the directory depth 
 * `-c` count the number of matches
 * `-f` follow symlinks
+
+# tricks
+``` sh
+# get a list of all the files containing the PATTERN document in thier contents
+
+ag 'document' |cut -d ':' -f 1 | uniq
+```

@@ -15,7 +15,7 @@ $ ag 'document.createElement'
 ```
 * recursilvy search for a PATERN in html and js files
  * `--<file-extenstion>` limit the files searched by `.<file-extnesion`
-```
+``` sh
 # look for the string 'table' in .js and .html files
 
 $ ag 'table' --js --html

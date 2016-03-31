@@ -5,8 +5,9 @@
  * `<some command> | grep <flags> <search term>`
 ## flags
 * `-i` ignore case
+* `-r` recursivly
 * `-n` show line numbers
 * `-E` regular expression
-* `-v` invert match (seleced lines are those **not** matching the pattern
+* `-v` invert match (seleced lines are those **not** matching the pattern)
 * `-w` look for entire pattern intact
 * `-c` count occurances

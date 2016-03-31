@@ -1,5 +1,6 @@
 # find
-* `$ find <start directory> <flags> <options>`
+* `$ find <start directory> <flags> <options>`  
+
 ## flags
 * `-name` find files by their name
 ``` sh
@@ -7,7 +8,7 @@
  
 $ find . -name '*.md'
 ```
-* `iname` find files by ther name **case insensitive**
+* `-iname` find files by ther name **case insensitive**
 ``` sh
 # find all files with the word readme
 

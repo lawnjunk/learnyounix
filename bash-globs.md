@@ -1,9 +1,18 @@
 # bash globs
 > Pathname expansion
 
+## pattern language
+* `*` matches *any string* 
+* `?` matches *any single character*
+* `[]` defines a bracket epression  
 
-## Customization
+**bracket expression**
+* `[XYZ]` matches eather `X`, `Y`, or `Z`
+* `[A-C]` matches the range of characters from `A` to `C`
+* `[[:class:]]` matches all the characters in a [POSIX® character class](/character-class.md)
+* `[^..]` nagating expression (matches everything but the expression)  
 
+## customization
 **enable and disable glob options**
 
 * **enable** `shopt -s <option>` will enable an option  
@@ -11,6 +20,7 @@
 
 **glob options**  
 
+* `extglob` enable pattern list `*(txt|md|js)` 
 * `dotglob` wildcard characters **can** match files begining with a `.`
 * `globstar` the glob `**` will recursivly match files and directorys
 * `nullglob` if no matches are found the glob will be replaced with and empty string

@@ -12,6 +12,18 @@
 * `[[:class:]]` matches all the characters in a [POSIX® character class](/character-class.md)
 * `[^..]` nagating expression (matches everything but the expression)  
 
+**extended pattern language**
+> these will only work if the `extglob` shell option is turned on
+* a pattern list is one or more patterns seporated by the `|` character
+ * `*.js|img/*-[0-9][0-9].png|**/*.html` matches all `.js` 
+* `@(<pattern-list>)` matches **one** occurance of a given pattern
+* `*(<pattern-list>)` matches **zero or more** occurance of a given pattern
+* `!(<pattern-list>)` matches **anything except** occurance of the given patterns
+* `?(<pattern-list>)` matches **zero or one**  of the given patterns
+* `+(<pattern-list>)` matches **one or more** of a given pattern  
+
+
+
 ## customization
 **enable and disable glob options**
 

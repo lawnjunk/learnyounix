@@ -13,7 +13,8 @@
 * `[^..]` nagating expression (matches everything but the expression)  
 
 **extended pattern language**
-> these will only work if the `extglob` shell option is turned on
+> these will only work if the `extglob` shell option is turned on  
+
 * a pattern list is one or more patterns seporated by the `|` character
  * `*.js|img/*-[0-9][0-9].png|**/*.html` matches all `.js` 
 * `@(<pattern-list>)` matches **one** occurance of a given pattern

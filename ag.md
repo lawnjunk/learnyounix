@@ -15,13 +15,13 @@ Use ag to look for files by their contents. Find can help you figure out where y
 
 # examples
 ``` sh
-# recursivly find lines with a string & print line numbers
+# recursivly find lines with the PATTERN 'imageDataObject' 
 
 $ ag 'imageDataObject'
 ```
 
 ``` sh
-# search a file for the PATTERN document.createElement in the client/js directory
+# search for the PATTERN document.createElement in the client/js directory
 
 $ ag 'document.createElement' client/js
 ```

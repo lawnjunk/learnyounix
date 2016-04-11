@@ -1,8 +1,8 @@
 # ag
 > recursivly search for files by their content
+  
 `$ find <regular expression> <optional file/dir name>`
-Use ag to look for files by their contents. Find can help you figure out where you declared a method, and/or all the places you have used a method. You can use the output of find with other programs.
-
+Use ag to look for files by their contents. Find can help you figure out where you declared a method, and/or all the places you have used a method. You can use the output of find with other programs.  
 
 ## important flags
 * `-a` seach dot files too

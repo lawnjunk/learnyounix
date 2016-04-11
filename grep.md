@@ -1,5 +1,5 @@
 # grep
-> search lines for a matching regular expression
+> search lines for a matching regular expression  
 `grep <flags> <search term> <optional file paths>`
 
 Grep is used to search lines for a matching regular expression. You can use it to search files for occurances of a pattern, for example look for the file that that defines a class. You can use it to fitler the output of another program, for example to print all of the lines with the PATTERN `'inet'` from `ifconfig`. Grep prints out the lines that match a PATTERN, and the filename if any.

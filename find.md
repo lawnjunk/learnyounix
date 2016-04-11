@@ -9,7 +9,7 @@ Use find to look for files by name, type, size, permissions, ect. Find genorates
 * `-iname` find files by ther name **case insensitive**
 * `-d` set the depth of directorys to search
 
-# examples
+## examples
 ``` sh
 # recursivly find files of all .md files
  

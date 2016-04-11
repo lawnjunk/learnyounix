@@ -2,12 +2,14 @@
 > compare files line by line  
 
 `colordiff <flags> <file one> <file two>`  
-Colordiff will compare two files line by line and tell you how they differ. You 
 
-# inportant flags
+Colordiff will compare two files line by line and tell you how they differ. You can use it to compare to source files and see if their contents differ. 
+
+# important flags
 * `-u` output 3 lines of unified context
 * `-y` get output with side by side output
 
+# examples
 ``` sh
 # print the lines of a file that differ and 
 # the three lines above and below for context

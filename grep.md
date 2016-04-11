@@ -22,7 +22,7 @@ $ grep 'class Admin(' ./*
 ```
 ``` sh
 # filter the output of ifconfig to print my local ip but not loopback
-# left space after 'inet' so that 'inet6' gets filtered out
+# used -w so that 'inet' matches but 'inet6'
 
-$ ifconfig |grep 'inet ' |  grep -v '127.0.0.1'
+$ ifconfig |grep -w 'inet' |  grep -v '127.0.0.1'
 ```

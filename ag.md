@@ -21,9 +21,9 @@ $ ag 'imageDataObject'
 ```
 
 ``` sh
-# search a file for the PATTERN document.createElement
+# search a file for the PATTERN document.createElement in the client/js directory
 
-$ ag 'document.createElement'
+$ ag 'document.createElement' client/js
 ```
 
 ``` sh

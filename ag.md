@@ -2,7 +2,7 @@
 > recursivly search for files by their content
   
 `$ find <regular expression> <optional file/dir name>`  
-Use ag to look for files by their contents. Find can help you figure out where you declared a method, and/or all the places you have used a method. You can use the output of find with other programs.  
+Use ag to look for files by their contents. Find can help you figure out where you declared a method, and/or all the places you have used a method. You can use the output of find with other programs. By default *ag* prints a list of all the files that match a query with numbered occurances of the lines that match the query.
 
 ## important flags
 * `-a` seach dot files too
@@ -13,7 +13,7 @@ Use ag to look for files by their contents. Find can help you figure out where y
 * `-c` count the number of matches
 * `-f` follow symlinks
 
-# examples
+## examples
 ``` sh
 # recursivly find lines with the PATTERN 'imageDataObject' 
 
@@ -27,13 +27,13 @@ $ ag 'document.createElement' client/js
 ```
 
 ``` sh
-# look for the string 'table' in .js and .html files
+# look for the PATTERN 'table' in .js and .html files
 
 $ ag 'table' --js --html
 ```
 
 ``` sh
-# get a list of all the files containing the PATTERN document in thier contents
+# get a list of all the files containing the PATTERN 'document' in thier contents
 
 ag 'document' |cut -d ':' -f 1 | uniq
 ```

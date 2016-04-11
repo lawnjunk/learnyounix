@@ -1,20 +1,27 @@
 # find
-* `$ find <start directory> <flags> <options>`  
+> recursivly search for files
 
-## flags
+* `$ find <start directory> <flags> <options>`  
+Use find to look for files by name,type,size,permissions,ect. Find genorates a list of files that match a query. You can use this to help remember where a file is located, and you can use the list genorated from find with other programs.  
+
+## important flags
 * `-name` find files by their name
+* `-iname` find files by ther name **case insensitive**
+* `-d` set the depth of directorys to search
+
+# examples
 ``` sh
 # recursivly find files of all .md files
  
 $ find . -name '*.md'
 ```
-* `-iname` find files by ther name **case insensitive**
+
 ``` sh
 # find all files with the word readme
 
 $ find . -iname '*rEaDMe*'
 ```
-* `-d` set the depth
+
 ``` sh
 # find all js files within 3 directorys
 

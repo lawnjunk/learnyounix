@@ -1,7 +1,7 @@
 # cut
 > cut out selected portions of a line of text  
-`$ cut <options> <filename>`   
 
+`$ cut <options> <filename>`   
 Cut is used to grab specifc portions of a line of text. You can use cut to grab select portions of text from each line of a file, for example to print the second and fourth fileds from a **.csv** file. You can also use cut to filter portions of text from each line output by another program, for example selecting the list of file names from the output of `grep`.
 
 ## important flags

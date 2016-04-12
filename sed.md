@@ -6,15 +6,14 @@ Sed is used to edit lines of text. It can be used to search and replace PATTERNS
 
 ## important flags
 * `-e` allows you to apply sed to a stream of text
-* `i` allows you to apply sed to a file inplace
+* `-i` allows you to apply sed to a file inplace
 
 ## sed patterns
-* `s/<search PATTERN>/<replace string>/` search and repalce
-* `/<search PATTERN>/d` seach and delete
-* `s/<search PATTERN>/<replace string>/g` without the `/g` flag sed will only effect the first matched PATTERN in each line
+* `s/<search PATTERN>/<replace string>/` search and repalce first matched PATTERN in each line
+* `/<search PATTERN>/d` seach and delete  first matched PATTERN in each line
+* `<sed expression>/g` use `/g` apply sed expression to all matched PATTERNs in each line
 
 ## examples
- * `sed -e <sed PATTERN>`
 ``` sh
 # Replace all ',' with ' ' from a stream
 
@@ -22,8 +21,8 @@ $ echo "hello,world" | sed -e 's/,/ /g'
 # hello world
 ```
 ``` sh
-# Replace all occurances of getName with getUserName for all .js 
-# files in the current working directory, & don't create backup files
+# Replace all occurances of getName with getUserName for all '.js'
+# files in the current working directory
 
 $ sed -i '' 's/getName/getUserName/g' *.js
 ```

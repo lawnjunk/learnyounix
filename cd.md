@@ -29,6 +29,10 @@ $ cd client/js/test
 # change current working directory to the absolute path ~/Downloads
 
 $ cd ~/Downloads
+
+# or 
+
+$ cd $HOME/Downloads
 ```
 
 ``` sh

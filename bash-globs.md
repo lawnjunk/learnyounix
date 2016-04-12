@@ -50,7 +50,19 @@ $ set -f <option>
 
 ## examples
 ``` sh
-# print a list of all the js and css files in this directory
-echo 
+# print a list of all the '.js` and css files in this directory
+
+$ echo ./*.js
 ```
+``` sh
+# print a list of all files that are not '.html' files in the current directory
+
+$ echo ./!(.html)
+```
+``` sh
+# print a list of the files that are '.html' and '.css' files
+
+$ echo ./*.(html|css)
+```
+
 

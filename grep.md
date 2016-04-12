@@ -20,7 +20,11 @@ Grep is used to search lines for a matching regular expression. You can use it t
 
 $ grep 'class Admin(' ./*
 ```
+``` sh 
+# filter the output of the history command to print lines with curl
 
+$ history |grep 'curl'
+```
 ``` sh
 # filter the output of ifconfig to print my local IPv4 but not loopback
 # used -w so that 'inet' matches but 'inet6'
@@ -28,8 +32,4 @@ $ grep 'class Admin(' ./*
 $ ifconfig |grep -w 'inet' |  grep -v '127.0.0.1'
 ```
 
-``` sh 
-# filter the output of the history command to print lines with curl
 
-$ history |grep 'curl'
-```

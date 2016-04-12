@@ -32,6 +32,7 @@ $ ls -aG
 
 $ ls -lahG
 ```
+```
 # print list of files in the directory '~/Downloads' color coded by filetype
 
 $ ls -G ~/Downloads

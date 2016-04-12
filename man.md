@@ -6,7 +6,7 @@
 Most built in programs have manual pages. The manual pages are usually organized by NAME, SYNOPSIS, DESCRIPTION, OTHER... The manual pages are usualy refered to as *man pages*. Man pages usually do not tell you when to use a program. They most often a reference what a program can do, and how to use a program. 
 
 ## usage
-By default `man` uses the `less` pager to dispay files.
+By default `man` uses the `less` pager to manual pages.
 * to quit hit the leter `q`
 * to search down the document hit `/` type your search string and hit `Enter`
 * to search up the document hit `?` type your search string and hit `Enter`

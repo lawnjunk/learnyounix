@@ -1,5 +1,7 @@
 # bash globs
-> Pathname expansion
+> Pathname expansion  
+
+Globs are a type of expression in bash that expands to list of files that match a PATTERN. You can use Globs to provide a list of files as the arguments to a program. Globs can also be used with loops in order to iterate over files.  
 
 ## pattern language
 * `*` matches *any string* 
@@ -23,8 +25,6 @@
 * `?(<pattern-list>)` matches **zero or one**  of the given patterns
 * `+(<pattern-list>)` matches **one or more** of a given pattern  
 
-
-
 ## customization
 **enable and disable glob options**
 
@@ -47,3 +47,10 @@
 
 $ set -f <option>
 ```
+
+## examples
+``` sh
+# print a list of all the js and css files in this directory
+echo 
+```
+

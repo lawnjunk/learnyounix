@@ -60,9 +60,9 @@ $ echo ./*.js
 $ echo ./!(.html)
 ```
 ``` sh
-# print a list of the files that are '.html' and '.css' files
+# print a list of the files that are '.html' and '.css' files in the current directory
 
-$ echo ./*.(html|css)
+$ echo ./*(.html|.css)
 ```
 
 

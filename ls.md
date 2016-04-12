@@ -22,17 +22,20 @@ Use `ls` to list the names and information about the contents of the current wor
 
 $ ls -G
 ```
+
 ``` sh
 # print list of all files (including hidden) in current directory color coded by filetype
 
 $ ls -aG
 ```
-```
+
+``` sh
 # print list of all files and human readable info color coded by filetype
 
 $ ls -lahG
 ```
-```
+
+``` sh
 # print list of files in the directory '~/Downloads' color coded by filetype
 
 $ ls -G ~/Downloads

@@ -18,7 +18,6 @@ Sed is used to edit lines of text. It can be used to search and replace PATTERNS
 # Replace all ',' with ' ' from a stream
 
 $ echo "hello,world" | sed -e 's/,/ /g'
-# hello world
 ```
 ``` sh
 # Replace all occurances of getName with getUserName for all '.js'

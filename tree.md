@@ -7,8 +7,8 @@ Tree is a recursive directory listing program that prints an easy to read list o
 ## important flags
 * `-L <number>` max level of depth to traverse
 * `-d` directories only
-* '-P <PATTERN>' list only files that match the wildcard PATTERN
-* '-I <PATTERN>' dont list the files that match the wilde card pattern
+* `-P <PATTERN>` list only files that match the wildcard PATTERN
+* `-I <PATTERN>` dont list the files that match the wilde card pattern
 
 ## examples
 ``` sh

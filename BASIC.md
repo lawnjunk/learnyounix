@@ -1,23 +1,19 @@
 # unix commands  
-**Navigation**  
+### Navigation  
  * pwd  
  * cd    
  * ls  
  * tree  
 
-**RUN**  
+### RUN 
  * $PATH  
  * which  
- * command arguments (flags)  
 
-**MANUAL**  
- * man  
- * info  
+### MANUAL  
+ * man -h --help
  * help  
- * -h  
- * --help  
 
-**CRUD files**  
+### CRUD files  
 * **Create**    
  * mkdir   
  * touch  
@@ -31,18 +27,19 @@
  * rm   
  * rmdir  
 
-**Short Cuts**  
+### Short Cuts  
 * tab complete  
 * star glob  
 * ~ && $HOME  
 * cd -   
+* alias
 
-**CONFIGURE**  
+### CONFIGURE
 * .bashrc && .bash_profile  
 * PS1  
 * EDITOR  
 
-**OS X**  
+### OS X  
 * open   
 * mdfind  
 * pbcopy  

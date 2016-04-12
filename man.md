@@ -3,7 +3,9 @@
 
 `$ man <command name>`  
 
-Most built in programs have manual pages. The manual pages are usually organized by NAME, SYNOPSIS, DESCRIPTION, OTHER... The manual pages are usualy refered to as *man pages*. Man pages usually do not tell you when to use a program. They most often a reference what a program can do, and how to use a program. 
+Most built in programs have manual pages. The manual pages are usually organized by NAME, SYNOPSIS, DESCRIPTION, OTHER... The manual pages are usualy refered to as *man pages*. Man pages usually do not tell you when to use a program. They most often a reference what a program can do, and how to use a program.   
+
+If you find a command that does not have a man page run `$ <command> -h` or  `$ <command> --help` 
 
 ## usage
 By default `man` uses the `less` pager to manual pages.

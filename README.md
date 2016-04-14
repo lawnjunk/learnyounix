@@ -1,7 +1,7 @@
 # unix command docs
 > notes for using some unix commands geared toward developers  
 
-[![Stories in Ready](https://badge.waffle.io/slugbyte/unix-cmds.svg?label=ready&title=Waffle)](http://waffle.io/slugbyte/unix-cmds)  
+[![Stories in Ready](https://badge.waffle.io/slugbyte/unix-cmds.svg?label=ready&title=Ready)](http://waffle.io/slugbyte/unix-cmds)  
 
 **Have Issues, Requests, Suggestions?**  
 [Open an Issue on our waffle board!](http://waffle.io/slugbyte/unix-cmds) 

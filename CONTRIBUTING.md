@@ -14,13 +14,14 @@ This project adheres to the Contributor Covenant [code of conduct](CONDUCT.md). 
 Please report unacceptable behavior to **dwolfm@gmail.com**.
 
 ## Report Issues
-**Before you report an issue, try to debugit**
+#### Before you report an issue, try to debugit:
 * search your error on [duckduckgo](https://duckduckgo.com)  
 * search you error on [stackoverflow](http://stackoverflow.com/)  
 
+#### Where to submit your issue:
 If you find a spelling issue, error, bug, or any other issue with any of the current documents. Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
 
-**How to submit a "good" issue:**
+#### How to submit a "good" issue:
 * Use a clear **descriptive title**
 * Describe the **exact steps** which reproduce the problem
  * Dont just say what you did, but explain **how you did it**! 

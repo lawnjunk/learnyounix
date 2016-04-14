@@ -51,7 +51,7 @@ Open a new issue in the [Waffle](https://waffle.io/slugbyte/unix-cmds) and place
 * Provide **links to any resources** you find helpful regarding your topic
 
 ## Your First Contribution
-**Not sure what to work on?** You can start by looking at the [Waffle](https://waffle.io/slugbyte/unix-cmds)borad for beginner issues.  
+**Not sure what to work on?** You can start by looking at the [Waffle](https://waffle.io/slugbyte/unix-cmds) borad for beginner issues.  
 **Not sure how to contribute?** Learn to [fork a repo](https://help.github.com/articles/fork-a-repo/), then learn about [using pull requests](https://help.github.com/articles/using-pull-requests/)
 
 ## Pull Requests

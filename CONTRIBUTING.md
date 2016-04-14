@@ -2,7 +2,7 @@ Contributing to Unix Command Docs
 =================================
 
 ### Table Of Contents
-* [code of conduct](#code-of-conduct)  
+* [Code of Conduct](#code-of-conduct)  
 * [Report Issues](#report-issues)  
 * [Suggestions and Requests](#suggestions-and-requset)  
 * [Your First Contribution](#your-first-contribution)  
@@ -14,15 +14,15 @@ This project adheres to the Contributor Covenant [code of conduct](CONDUCT.md). 
 Please report unacceptable behavior to **dwolfm@gmail.com**.
 
 ## Report Issues
-#### Before you report an issue, try to debugit:
+#### Before you report an issue, try to debugit
 * search your error on [duckduckgo](https://duckduckgo.com)  
 * search you error on [stackoverflow](http://stackoverflow.com/)  
 
-#### Where to submit your issue:
+#### Where to submit your issue
 If you find a spelling issue, error, bug, or any other issue with any of the current documents.  
 Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
 
-#### How to submit a "good" issue:
+#### How to submit a "good" issue
 * Use a clear **descriptive title**
 * Describe the **exact steps** which reproduce the problem
  * Dont just say what you did, but explain **how you did it**! 
@@ -36,6 +36,20 @@ Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place
  * Provide the solution that worked for you! **:)**
  
 ## Suggestions and Requsets
+#### Befor you make a request for new content
+* use githubs search in project feature to search our project for your topic
+* double check the readme titles to make sure your topic isnt covered
+* research the topic so you can point us in the right direction
+
+#### Where to submit your Requuest
+Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Suggestion** column.
+
+#### How to make a "good" request
+* Use a clear **descriptive title**
+* Describe **why your request will help developers**
+ * Not just that you want to know how something works 
+* Provide **links to any resources** you find helpful regarding your topic
+
 ## Your First Contribution
 ## Pull Request
 ## Style Guide

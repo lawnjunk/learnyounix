@@ -20,7 +20,7 @@ Please report unacceptable behavior to **dwolfm@gmail.com**.
 
 #### Where to submit your issue
 If you find a spelling issue, error, bug, or any other issue with any of the current documents.  
-Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
+Open a new issue in the [Waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
 
 #### How to submit a "good" issue
 * Use a clear **descriptive title**
@@ -35,14 +35,14 @@ Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place
 * Provide links to any resources you found helpful **while trying to debug your error**!
  * Provide the solution that worked for you! **:)**
  
-## Suggestions and Requsets
+## Suggestions and Requsetsw
 #### Befor you make a request for new content
 * use githubs search in project feature to search our project for your topic
 * double check the readme titles to make sure your topic isnt covered
 * research the topic so you can point us in the right direction
 
 #### Where to submit your Requuest
-Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Suggestion** column.
+Open a new issue in the [Waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Suggestion** column.
 
 #### How to make a "good" request
 * Use a clear **descriptive title**
@@ -51,5 +51,16 @@ Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place
 * Provide **links to any resources** you find helpful regarding your topic
 
 ## Your First Contribution
-## Pull Request
-## Style Guide
+**Not sure what to work on?** You can start by looking at the [Waffle](https://waffle.io/slugbyte/unix-cmds)borad for beginner issues.  
+**Not sure how to contribute?** Learn to [fork a repo](https://help.github.com/articles/fork-a-repo/), then learn about [using pull requests](https://help.github.com/articles/using-pull-requests/)
+
+## Pull Requests
+ * Create an Issue on [Waffle](https://waffle.io/slugbyte/unix-cmds)
+ * Follow the [Styleguide](STYLEGUIDE.md)
+ * [Write a good commit message](http://chris.beams.io/posts/git-commit/)
+  * First line should be less than 50 characters
+  * Have a empty second line and then a sumary
+  * In the summary answer these questions: _Why is this change necessary?_, and _How does it address the issue?_ 
+  * Add a link referencing the [Waffle](https://waffle.io/slugbyte/unix-cmds) issue.
+
+## Styleguide

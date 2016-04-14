@@ -1,4 +1,4 @@
-Contributing to Unix Command Docs
+Contributing to learnyounix
 =================================
 
 ### Table Of Contents

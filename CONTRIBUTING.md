@@ -19,7 +19,8 @@ Please report unacceptable behavior to **dwolfm@gmail.com**.
 * search you error on [stackoverflow](http://stackoverflow.com/)  
 
 #### Where to submit your issue:
-If you find a spelling issue, error, bug, or any other issue with any of the current documents. Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
+If you find a spelling issue, error, bug, or any other issue with any of the current documents.  
+Open a new issue in the [waffle](https://waffle.io/slugbyte/unix-cmds) and place it in the **Issues** column.  
 
 #### How to submit a "good" issue:
 * Use a clear **descriptive title**

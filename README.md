@@ -1,4 +1,4 @@
-# unix command docs
+# learnyounix
 > notes for using some unix commands geared toward developers  
 
 [![Stories in Ready](https://badge.waffle.io/slugbyte/unix-cmds.svg?label=ready&title=Ready)](http://waffle.io/slugbyte/unix-cmds)  

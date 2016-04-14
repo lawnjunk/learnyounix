@@ -3,4 +3,4 @@
 
 `$ pwd`  
 
-You can use `pwd` to figure out what directory your are currently locacated in.
+You can use `pwd` to figure out what directory your are currently located in.

@@ -12,7 +12,7 @@ The Help command will display brief summaries of builtin commands. Without provi
 $ help
 ```
 ``` sh
-# display a summarie about while loop command
+# display a summary about while loop command
 
 $ help while
 ```

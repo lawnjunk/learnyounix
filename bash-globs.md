@@ -19,9 +19,9 @@ Globs are a type of expression in bash that expands to list of files that match 
 
 * a pattern list is one or more patterns seporated by the `|` character
  * `*.js|img/*-[0-9][0-9].png|**/*.html` matches all `.js` 
-* `@(<pattern-list>)` matches **one** occurance of a given pattern
-* `*(<pattern-list>)` matches **zero or more** occurance of a given pattern
-* `!(<pattern-list>)` matches **anything except** occurance of the given patterns
+* `@(<pattern-list>)` matches **one** occurrence of a given pattern
+* `*(<pattern-list>)` matches **zero or more** occurrence of a given pattern
+* `!(<pattern-list>)` matches **anything except** occurrence of the given patterns
 * `?(<pattern-list>)` matches **zero or one**  of the given patterns
 * `+(<pattern-list>)` matches **one or more** of a given pattern  
 
@@ -35,7 +35,7 @@ Globs are a type of expression in bash that expands to list of files that match 
 
 * `extglob` enable pattern list `*(txt|md|js)` 
 * `dotglob` wildcard characters **can** match files begining with a `.`
-* `globstar` the glob `**` will recursivly match files and directorys
+* `globstar` the glob `**` will recursively match files and directorys
 * `nullglob` if no matches are found the glob will be replaced with and empty string
 * `fialglob` if no matches are found an error will be produced
 * `nocaseglob` case insensitive pathname expansion

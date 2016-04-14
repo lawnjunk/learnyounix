@@ -9,7 +9,7 @@ If you find a command that does not have a man page run `$ <command> -h` or  `$ 
 
 ## usage
 By default `man` uses the `less` pager to manual pages.
-* to quit hit the leter `q`
+* to quit hit the letter `q`
 * to search down the document hit `/` type your search string and hit `Enter`
 * to search up the document hit `?` type your search string and hit `Enter`
 * to cycle forward though search result hit the letter `n`

@@ -20,7 +20,7 @@ Sed is used to edit lines of text. It can be used to search and replace PATTERNS
 $ echo "hello,world" | sed -e 's/,/ /g'
 ```
 ``` sh
-# Replace all occurances of getName with getUserName for all '.js'
+# Replace all occurrences of getName with getUserName for all '.js'
 # files in the current working directory
 
 $ sed -i '' 's/getName/getUserName/g' *.js

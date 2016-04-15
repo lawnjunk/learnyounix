@@ -1,7 +1,7 @@
 # learnyounix
 > notes for using some unix commands geared toward developers  
 
-[![Stories in Ready](https://badge.waffle.io/slugbyte/learnyounix.svg?label=Suggestions&title=Ready)](http://waffle.io/slugbyte/learnyounix)
+[![Stories in Ready](https://badge.waffle.io/slugbyte/learnyounix.svg?label=Suggestions&title=Suggestions)](http://waffle.io/slugbyte/learnyounix)
 
 **Have Issues, Requests, Suggestions?**  
 [Open an Issue on our waffle board!](http://waffle.io/slugbyte/learnyounix) 

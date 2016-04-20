@@ -1,39 +1,12 @@
-#Unix
-
 # What is UNIX?
 
 ### TL;DR
-Unix is an old operating system that we dont really use any more. **Linix** and **OSX** are basicaly unix. This book uses the word "Unix" to represent all the operating systems that are basicly unix. This book is not a Unix history book, and doesnt have an opinion about about what makes an operating system "Unix". This book wants to help developers learn unix commands that will make them wicked good at the command line. So they can develope faster and have more fun! 
+Unix is an old operating system that we dont really use any more. **Linix** and **OSX** are basicaly unix. This book uses the word "Unix" to represent all the operating systems that are basicly unix. This book is not a Unix history book, and doesnt have an opinion about about what makes an operating system "Unix". This book wants to help developers learn unix commands that will make them wicked good at the command line. So they can develope faster and have more fun!  
  
 ### unabridged
-**UNIX** is a very confusing and often missused name. Unix is an operating system that was developed at [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs) in the 1970's. Its design made it very adaptable, and it has been able to keep up with the ways computers have changed over the last 40 years. Unix implementations are extremly popular operating systems for modenr computers. There are a handful of free and propriatry unix implementations including **Linix**, **Darwin**(OS X), **Solaris**, and **FreeBSD**. Each Unix implementation is uniq, and has its own flavor to the way it works. Which means they are not identical, but they have enough in common that if you can do something on one, you can expect it to be done "the same way" on another. People often use `*nix` to represent all of the Unix implementations in a sinlge word. [learnyounix](README.md) is not geared towards any particular Unix implementaion. However, using **Linix**, or **OS X** to follow a long this book is recommend.
+UNIX is a very confusing and often missused name. Unix is an operating system that was developed at [Bell Labs](https://en.wikipedia.org/wiki/Bell_Labs) in the 1970's. Its design made it very adaptable, and it has been able to keep up with the ways computers have changed over the last 40 years. Unix implementations are extremly popular operating systems for modenr computers. There are a handful of free and propriatry unix implementations including _Linix_, _Darwin_ (OS X), _Solaris_, and _FreeBSD_. Each Unix implementation is unique, and has its own flavor to the way it works. Which means they are not identical, but they have enough in common that if you can do something on one, you can expect it to be done "the same way" on another. People often use `*nix` to represent all of the Unix implementations in a sinlge word. [learnyounix](README.md) is not geared towards any particular Unix implementaion. However, using _Linix_, or _OS X_ to follow a long this book is recommend.  
 
-For the purposes of this book a unix operating system is made up of a [file system](https://en.wikipedia.org/wiki/File_system), [kernal](https://en.wikipedia.org/wiki/Kernel_(operating_system), and a bundle of programs. The kernal is a program that is the core of the operating system. Its job is to control all of the other programs, and talk to your computers hardware. The file system is used store data. This book will refer to different ways of fetching and storing data from the file file sysem as **CRUD** operations: CREATE, READ, UPDATE, and DESTORY. The bundle of unix programs will be the main focus of this book. There are a variaty of programs the book will refer to as **Core Utils** that can be found by default on most unix operating systems. **LYU** refers to them as core utils becaue they are often created the [GNU](http://www.gnu.org/) developer community, and GNU refers to their basic command package as the [GNU coreutils](http://www.gnu.org/software/coreutils/coreutils.html). However, you **Core Utils** may not neccisarily be GNU implementations. Some of the commands in this book will need to be installed using a package manager, or from _source_ if you would like. **LYU** will try to let you know when commands are not usualy on unix opperating systems by default. If you ever get an error simular to "command not found". Try installing that command with your package manager.
+For the purposes of this book a unix operating system is made up of a [file system](https://en.wikipedia.org/wiki/File_system), [kernal]("https://en.wikipedia.org/wiki/Kernel_(operating_system"), and a bundle of programs. The kernal is a program that is the core of the operating system. Its job is to control all of the other programs, and talk to your computers hardware. The file system is used store data. This book will refer to different ways of fetching and storing data from the file file sysem as **CRUD** operations: CREATE, READ, UPDATE, and DESTORY. The bundle of unix programs will be the main focus of this book. There are a variaty of programs the book will refer to as _Core Utils_ that can be found by default on most unix operating systems. **LYU** refers to them as core utils becaue they are often created the [GNU](http://www.gnu.org/) developer community, and GNU refers to their basic command package as the [GNU coreutils](http://www.gnu.org/software/coreutils/coreutils.html). However, you _Core Utils_ may not neccisarily be GNU implementations. Some of the commands in this book will need to be installed using a package manager, or from source if you would like. **LYU** will try to let you know when commands are not usualy on unix opperating systems by default. If you ever get an error simular to "command not found". Try installing that command with your package manager.  
 
-This book will not teach you the history of Unix, or what an opperating system is. It will teach you how and when to use a ton of different unix commands, so that you can shred at the command line and have more fun deving :)!
+This book will not teach you the history of Unix, or what an opperating system is. It will teach you how and when to use a ton of different unix commands, so that you can shred at the command line and have more fun deving :)!  
 
-# Prerequisites
-### Reader
-* Have basic programming skills
- * Know how to get to a Terminal on you Operating System
- * Know how to use a plain text editor, like [atom](https://atom.io/), [vim](http://www.vim.org/), or [emacs](https://www.gnu.org/software/emacs/)
-* Know how to use a package manager for your Operating System
- * OS X: [homebrew](http://brew.sh/)
- * Ubuntu, Debian, Mint: [apt-get](https://help.ubuntu.com/community/AptGet/Howto)
- * Fedora: [dnf](https://fedoraproject.org/wiki/Features/DNF)
- * Arch: [pacman](https://wiki.archlinux.org/index.php/Pacman)
- * Centos: [yum](https://www.centos.org/docs/5/html/yum/)
-* A Reasonable tollerance for buggy example code, and having to trouble shoot on your own.
- * Unix commands can have the same name but vairy slightly in usage between different unix implementations
- * **LYU** will try its best to use examples that should work on all unix implementations, and make notes when there are well know got-yas.
- * If you find a bug in the exampples read the [Contributing Guide](CONTRIBUTING.md) and open an issue, or submit a Pull Request!
-
-### Computer
-* A UNIX like operating system
- * **Linix**, or **OSX** are recommend
-* A Pacakage Manager for your opperating System
-* A plain text editor
- * Recomend one of these [atom](https://atom.io/), [vim](http://www.vim.org/), or [emacs](https://www.gnu.org/software/emacs/)
-* A terminal app
-* **BASH** setup as your default shell
- * some of the examples in this book will be specific to bash... zsh, fish, csh, ksh, and... work differnlty and will not work with the examples. If you want to switch shells when your done with this book feel free, but i doubt you will want to because you will know bash inside and out :)! We use bash, because it is usualy the default shell on unix opperating sytems. This makes it easy to trouble shoot because most of the documention on the internet on "how to use the command line" uses bash syntax and commands.

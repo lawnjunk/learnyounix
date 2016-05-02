@@ -15,7 +15,7 @@ The mkdir utility is used to create empty directories.
 $ mkdir css
 ```
 ``` sh
-# create the directory client/js/test and any of its parent directories 
+# create the directory client/js/test and any of its parent directories
 # if they are needed.
 
 $ mkdir -p client/js/test

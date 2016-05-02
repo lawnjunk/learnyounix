@@ -2,7 +2,7 @@
 > change working directory  
 
 `$ cd <path>`  
-Change the current working directory of the shell to a relative or absolute path. If you type cd with out any arguments it will take you to your home directory. Use `~` or `$HOME` to references paths from your home directory. 
+Change the current working directory of the shell to a relative or absolute path. If you type cd with out any arguments it will take you to your home directory. Use `~` or `$HOME` to references paths from your home directory.
 
 ## examples
 ``` sh
@@ -30,7 +30,7 @@ $ cd client/js/test
 
 $ cd ~/Downloads
 
-# or 
+# or
 
 $ cd $HOME/Downloads
 ```

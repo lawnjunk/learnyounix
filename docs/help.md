@@ -1,9 +1,9 @@
 # help
-> Display informantion about bash builtin commands  
+> Display information about bash built-in commands  
 
 `$ help <optional topic>`  
 
-The Help command will display brief summaries of builtin commands. Without providing a topic `help` will print out a list of topics.
+The Help command will display brief summaries of built-in commands. Without providing a topic `help` will print out a list of topics.
 
 ## examples
 ``` sh

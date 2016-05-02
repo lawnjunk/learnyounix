@@ -4,21 +4,21 @@
 Globs are a type of expression in bash that expands to list of files that match a PATTERN. You can use Globs to provide a list of files as the arguments to a program. Globs can also be used with loops in order to iterate over files.  
 
 ## pattern language
-* `*` matches *any string* 
+* `*` matches *any string*
 * `?` matches *any single character*
-* `[]` defines a bracket epression  
+* `[]` defines a bracket expression  
 
 **bracket expression**
-* `[XYZ]` matches eather `X`, `Y`, or `Z`
+* `[XYZ]` matches either `X`, `Y`, or `Z`
 * `[A-C]` matches the range of characters from `A` to `C`
 * `[[:class:]]` matches all the characters in a [POSIX® character class](/character-class.md)
-* `[^..]` nagating expression (matches everything but the expression)  
+* `[^..]` navigating expression (matches everything but the expression)  
 
 **extended pattern language**
 > these will only work if the `extglob` shell option is turned on  
 
-* a pattern list is one or more patterns seporated by the `|` character
- * `*.js|img/*-[0-9][0-9].png|**/*.html` matches all `.js` 
+* a pattern list is one or more patterns separated by the `|` character
+ * `*.js|img/*-[0-9][0-9].png|**/*.html` matches all `.js`
 * `@(<pattern-list>)` matches **one** occurrence of a given pattern
 * `*(<pattern-list>)` matches **zero or more** occurrence of a given pattern
 * `!(<pattern-list>)` matches **anything except** occurrence of the given patterns
@@ -33,9 +33,9 @@ Globs are a type of expression in bash that expands to list of files that match 
 
 **glob options**  
 
-* `extglob` enable pattern list `*(txt|md|js)` 
-* `dotglob` wildcard characters **can** match files begining with a `.`
-* `globstar` the glob `**` will recursively match files and directorys
+* `extglob` enable pattern list `*(txt|md|js)`
+* `dotglob` wildcard characters **can** match files beginning with a `.`
+* `globstar` the glob `**` will recursively match files and directories
 * `nullglob` if no matches are found the glob will be replaced with and empty string
 * `fialglob` if no matches are found an error will be produced
 * `nocaseglob` case insensitive pathname expansion
@@ -43,7 +43,7 @@ Globs are a type of expression in bash that expands to list of files that match 
 
 ### disable all globs
 ``` sh
-# to set a option in bash use 
+# to set a option in bash use
 
 $ set -f <option>
 ```
@@ -64,5 +64,3 @@ $ echo ./!(.html)
 
 $ echo ./*(.html|.css)
 ```
-
-

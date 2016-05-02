@@ -10,7 +10,7 @@ Grep is used to search lines for a matching regular expression. You can use it t
 * `-r` recursively
 * `-n` show line numbers
 * `-E` regular expression
-* `-v` invert match (seleced lines are those **not** matching the pattern)
+* `-v` invert match (selected lines are those **not** matching the pattern)
 * `-w` look for entire pattern intact
 * `-c` count occurrences
 
@@ -20,7 +20,7 @@ Grep is used to search lines for a matching regular expression. You can use it t
 
 $ grep 'class Admin(' ./*
 ```
-``` sh 
+``` sh
 # filter the output of the history command to print lines with 'curl'
 
 $ history |grep 'curl'
@@ -31,5 +31,3 @@ $ history |grep 'curl'
 
 $ ifconfig |grep -w 'inet' |  grep -v '127.0.0.1'
 ```
-
-

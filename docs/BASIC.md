@@ -5,7 +5,7 @@
  * ls  
  * tree  
 
-### RUN 
+### RUN
  * $PATH  
  * which  
 
@@ -43,4 +43,3 @@
 * open   
 * mdfind  
 * pbcopy  
-

@@ -1,12 +1,12 @@
-# rm 
-> delete files and directorys  
+# rm
+> delete files and directories  
 
 `$ cd <flags> <path>`  
 
-`rm` will permanitly remove a file or directory from your filesystem. Once you `rm` a file or directory you cannot get it back! 
+`rm` will permanently remove a file or directory from your file system. Once you `rm` a file or directory you cannot get it back!
 
 ## warning
-Be especially careful when you are removing a directory using, becuase everything in side it will be permanitly deleted. If you run `rm -rf /` it will try to delete all of the files on your computer that have your user permisions! 
+Be especially careful when you are removing a directory using, because everything in side it will be permanently deleted. If you run `rm -rf /` it will try to delete all of the files on your computer that have your user permissions!
 
 
 ## important flags

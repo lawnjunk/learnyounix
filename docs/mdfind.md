@@ -1,5 +1,5 @@
 # mdfind
-> spotlight for the commandline
+> spotlight for the command-line
 **This only works on OS X**
 
 `$ mdfind <flags> <query string>`
@@ -18,5 +18,3 @@ $ mdfind mp4
 
 $ find -name grep.md
 ```
-
-

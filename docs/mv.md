@@ -3,17 +3,17 @@
 
 `$ mv <source file path> <target file path>`  
 
-Use `mv` to move a file or directory from one place to another on the filesystem. `mv` is also used to rename a file or directory.
+Use `mv` to move a file or directory from one place to another on the file system. `mv` is also used to rename a file or directory.
 
-## warning 
+## warning
 `mv` will overwrite an existing target file, and you can not get it back.
 
 ## important flags
 * `-n` do not overwrite an existing file.
-* `-v` cause move to be verbose, loging files as they are moved.
+* `-v` cause move to be verbose, logging files as they are moved.
 
-## examples 
-``` sh 
+## examples
+``` sh
 # rename the file ./server.js to ./app.js
 
 $ mv ./server.js ./app.js

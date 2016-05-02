@@ -20,7 +20,7 @@ $ less app.js
 ```
 
 ``` sh
-# read the ouptut of curls --help in less
+# read the output of curls --help in less
 
 $ curl --help | less
 ```
